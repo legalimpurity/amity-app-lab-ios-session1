@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C2593320737C67004691DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2593220737C67004691DB /* AppDelegate.swift */; };
+		14C2593520737C67004691DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2593420737C67004691DB /* ViewController.swift */; };
+		14C2593820737C67004691DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2593620737C67004691DB /* Main.storyboard */; };
+		14C2593A20737C67004691DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C2593920737C67004691DB /* Assets.xcassets */; };
+		14C2593D20737C67004691DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2593B20737C67004691DB /* LaunchScreen.storyboard */; };
+		14C2594820737C67004691DB /* Amity_Incubator_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2594720737C67004691DB /* Amity_Incubator_AppTests.swift */; };
+		14C2595320737C67004691DB /* Amity_Incubator_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2595220737C67004691DB /* Amity_Incubator_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14C2594420737C67004691DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C2592720737C67004691DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C2592E20737C67004691DB;
+			remoteInfo = "Amity Incubator App";
+		};
+		14C2594F20737C67004691DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C2592720737C67004691DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C2592E20737C67004691DB;
+			remoteInfo = "Amity Incubator App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C2592F20737C67004691DB /* Amity Incubator App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amity Incubator App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C2593220737C67004691DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14C2593420737C67004691DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14C2593720737C67004691DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14C2593920737C67004691DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14C2593C20737C67004691DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14C2593E20737C67004691DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C2594320737C67004691DB /* Amity Incubator AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amity Incubator AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C2594720737C67004691DB /* Amity_Incubator_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amity_Incubator_AppTests.swift; sourceTree = "<group>"; };
+		14C2594920737C67004691DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C2594E20737C67004691DB /* Amity Incubator AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amity Incubator AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C2595220737C67004691DB /* Amity_Incubator_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amity_Incubator_AppUITests.swift; sourceTree = "<group>"; };
+		14C2595420737C67004691DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C2592C20737C67004691DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C2594020737C67004691DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C2594B20737C67004691DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C2592620737C67004691DB = {
+			isa = PBXGroup;
+			children = (
+				14C2593120737C67004691DB /* Amity Incubator App */,
+				14C2594620737C67004691DB /* Amity Incubator AppTests */,
+				14C2595120737C67004691DB /* Amity Incubator AppUITests */,
+				14C2593020737C67004691DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C2593020737C67004691DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C2592F20737C67004691DB /* Amity Incubator App.app */,
+				14C2594320737C67004691DB /* Amity Incubator AppTests.xctest */,
+				14C2594E20737C67004691DB /* Amity Incubator AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C2593120737C67004691DB /* Amity Incubator App */ = {
+			isa = PBXGroup;
+			children = (
+				14C2593220737C67004691DB /* AppDelegate.swift */,
+				14C2593420737C67004691DB /* ViewController.swift */,
+				14C2593620737C67004691DB /* Main.storyboard */,
+				14C2593920737C67004691DB /* Assets.xcassets */,
+				14C2593B20737C67004691DB /* LaunchScreen.storyboard */,
+				14C2593E20737C67004691DB /* Info.plist */,
+			);
+			path = "Amity Incubator App";
+			sourceTree = "<group>";
+		};
+		14C2594620737C67004691DB /* Amity Incubator AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				14C2594720737C67004691DB /* Amity_Incubator_AppTests.swift */,
+				14C2594920737C67004691DB /* Info.plist */,
+			);
+			path = "Amity Incubator AppTests";
+			sourceTree = "<group>";
+		};
+		14C2595120737C67004691DB /* Amity Incubator AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14C2595220737C67004691DB /* Amity_Incubator_AppUITests.swift */,
+				14C2595420737C67004691DB /* Info.plist */,
+			);
+			path = "Amity Incubator AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C2592E20737C67004691DB /* Amity Incubator App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C2595720737C67004691DB /* Build configuration list for PBXNativeTarget "Amity Incubator App" */;
+			buildPhases = (
+				14C2592B20737C67004691DB /* Sources */,
+				14C2592C20737C67004691DB /* Frameworks */,
+				14C2592D20737C67004691DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amity Incubator App";
+			productName = "Amity Incubator App";
+			productReference = 14C2592F20737C67004691DB /* Amity Incubator App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14C2594220737C67004691DB /* Amity Incubator AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C2595A20737C67004691DB /* Build configuration list for PBXNativeTarget "Amity Incubator AppTests" */;
+			buildPhases = (
+				14C2593F20737C67004691DB /* Sources */,
+				14C2594020737C67004691DB /* Frameworks */,
+				14C2594120737C67004691DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C2594520737C67004691DB /* PBXTargetDependency */,
+			);
+			name = "Amity Incubator AppTests";
+			productName = "Amity Incubator AppTests";
+			productReference = 14C2594320737C67004691DB /* Amity Incubator AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14C2594D20737C67004691DB /* Amity Incubator AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C2595D20737C67004691DB /* Build configuration list for PBXNativeTarget "Amity Incubator AppUITests" */;
+			buildPhases = (
+				14C2594A20737C67004691DB /* Sources */,
+				14C2594B20737C67004691DB /* Frameworks */,
+				14C2594C20737C67004691DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C2595020737C67004691DB /* PBXTargetDependency */,
+			);
+			name = "Amity Incubator AppUITests";
+			productName = "Amity Incubator AppUITests";
+			productReference = 14C2594E20737C67004691DB /* Amity Incubator AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C2592720737C67004691DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Amity Innovation Incubator";
+				TargetAttributes = {
+					14C2592E20737C67004691DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					14C2594220737C67004691DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14C2592E20737C67004691DB;
+					};
+					14C2594D20737C67004691DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14C2592E20737C67004691DB;
+					};
+				};
+			};
+			buildConfigurationList = 14C2592A20737C67004691DB /* Build configuration list for PBXProject "Amity Incubator App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C2592620737C67004691DB;
+			productRefGroup = 14C2593020737C67004691DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C2592E20737C67004691DB /* Amity Incubator App */,
+				14C2594220737C67004691DB /* Amity Incubator AppTests */,
+				14C2594D20737C67004691DB /* Amity Incubator AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C2592D20737C67004691DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2593D20737C67004691DB /* LaunchScreen.storyboard in Resources */,
+				14C2593A20737C67004691DB /* Assets.xcassets in Resources */,
+				14C2593820737C67004691DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C2594120737C67004691DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C2594C20737C67004691DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C2592B20737C67004691DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2593520737C67004691DB /* ViewController.swift in Sources */,
+				14C2593320737C67004691DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C2593F20737C67004691DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2594820737C67004691DB /* Amity_Incubator_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C2594A20737C67004691DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2595320737C67004691DB /* Amity_Incubator_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C2594520737C67004691DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C2592E20737C67004691DB /* Amity Incubator App */;
+			targetProxy = 14C2594420737C67004691DB /* PBXContainerItemProxy */;
+		};
+		14C2595020737C67004691DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C2592E20737C67004691DB /* Amity Incubator App */;
+			targetProxy = 14C2594F20737C67004691DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14C2593620737C67004691DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C2593720737C67004691DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14C2593B20737C67004691DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C2593C20737C67004691DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C2595520737C67004691DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14C2595620737C67004691DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C2595820737C67004691DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amity Incubator App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.amity.Amity-Incubator-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C2595920737C67004691DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amity Incubator App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.amity.Amity-Incubator-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14C2595B20737C67004691DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amity Incubator AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.amity.Amity-Incubator-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amity Incubator App.app/Amity Incubator App";
+			};
+			name = Debug;
+		};
+		14C2595C20737C67004691DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amity Incubator AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.amity.Amity-Incubator-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amity Incubator App.app/Amity Incubator App";
+			};
+			name = Release;
+		};
+		14C2595E20737C67004691DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amity Incubator AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.amity.Amity-Incubator-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amity Incubator App";
+			};
+			name = Debug;
+		};
+		14C2595F20737C67004691DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amity Incubator AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.amity.Amity-Incubator-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amity Incubator App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C2592A20737C67004691DB /* Build configuration list for PBXProject "Amity Incubator App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2595520737C67004691DB /* Debug */,
+				14C2595620737C67004691DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C2595720737C67004691DB /* Build configuration list for PBXNativeTarget "Amity Incubator App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2595820737C67004691DB /* Debug */,
+				14C2595920737C67004691DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C2595A20737C67004691DB /* Build configuration list for PBXNativeTarget "Amity Incubator AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2595B20737C67004691DB /* Debug */,
+				14C2595C20737C67004691DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C2595D20737C67004691DB /* Build configuration list for PBXNativeTarget "Amity Incubator AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2595E20737C67004691DB /* Debug */,
+				14C2595F20737C67004691DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C2592720737C67004691DB /* Project object */;
+}
